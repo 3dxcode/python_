@@ -1,0 +1,20 @@
+bosListe = list()
+def ebob(sayi1,sayi2):
+    if sayi2 > sayi1:
+        for i in range(1,sayi1 +1):
+            if sayi1 % i ==0 and sayi2 % i ==0:
+                bosListe.append(i)
+    if sayi1 > sayi2:
+        for i in range(1,sayi2 + 1):
+            if sayi1 % i ==0 and sayi2 % i ==0:
+                bosListe.append(i)
+    if sayi1 == sayi2:
+        for i in range(1,sayi1 +1):
+            if sayi1 % i ==0 and sayi2 % i ==0:
+                bosListe.append(i)
+    return bosListe
+
+Gelensayi1 = int(input("1.Sayıyı girin: "))  
+Gelensayi2 = int(input("2.Sayıyı girin: "))
+
+print(ebob(Gelensayi1,Gelensayi2))
