@@ -1,0 +1,14 @@
+maas = float(input("Maaş durumu: "))
+cocuk= int(input("Kaç çoçuğunuz var: "))
+maas1 = maas + maas*0.05
+maas2 = maas + maas*0.1
+maas3 = maas + maas*0.15
+
+if cocuk == 0:
+    print("Maaşınız: {}".format(maas))
+if cocuk == 1:
+    print("Maaşınız: {}".format(maas1))
+if cocuk == 2:
+    print("Maaşınız: {}".format(maas2))
+if cocuk == 3:
+    print("Maaşınız: {}".format(maas3))

@@ -1,0 +1,6 @@
+toplam = 0 
+for i in range(5):
+    toplam = toplam + int(input("Sayıyı giriniz: "))
+print("Sayıların  toplamı:{} ".format(toplam))
+ort = toplam*0.2
+print("Sayıların  ortalaması:{} ".format(ort))

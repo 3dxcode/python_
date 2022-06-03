@@ -1,0 +1,6 @@
+sayi = int(input("Sayıyı girin: "))
+
+if sayi<100 and sayi>0:
+    print("geçerli")
+else: 
+    print("geçersiz")

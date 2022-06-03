@@ -1,0 +1,8 @@
+def fonksiyon(num):
+    fact=1
+    for i in range(1, num+1):
+        fact=fact*i
+    return fact    
+sayı=int(input("Lütfen faktöriyel bulmak için herhangi bir sayı girin: "))
+sonuç=fonksiyon(sayı)
+print("{} sayısını faktöriyeli {}".format(sayı,sonuç))

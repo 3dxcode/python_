@@ -1,0 +1,6 @@
+vize = int(input("Vize notunu giriniz: "))
+final = int(input("Final notunu giriniz: "))
+
+basariNotu= vize *0.3 + final *0.7
+
+print("Ortalamanız: {}".format(basariNotu)

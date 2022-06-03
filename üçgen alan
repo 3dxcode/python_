@@ -1,0 +1,6 @@
+yükseklik = int(input("Yükseklik değerini giriniz: "))      
+taban = int(input("Taban değerini giriniz: "))
+
+alan = yükseklik*taban*0.5
+
+print("Üçgenin alanı: {}".format(alan))

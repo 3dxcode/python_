@@ -1,0 +1,9 @@
+print("*********** ax*2 + bx + c şeklindeki denklemin köklerini bulan program. *********")
+a = int(input("x*2 nin katsayısını girin: "))
+b = int(input("x in katsayısını girin: "))
+c = int(input("c nin katsayısını girin: "))
+
+x1 = (-b + (b*2 - (4*a*c))**0.5)/(2*a)         
+x2 = (-b - (b*2 - (4*a*c))**0.5)/(2*a)
+                                  
+print("Denklemin kökleri: {} , {}.".format(x1,x2))
