@@ -1,0 +1,22 @@
+ÖğrenciAdi = input("Öğrencinin adını girin: ")
+VizeNotu = float(input("Vize notunu girin: "))
+FinalNotu = float(input("Final notunu girin: "))
+
+BasariPuani = ((VizeNotu*40) + (FinalNotu*60))/100
+
+print(BasariPuani)
+
+if BasariPuani >= 90 and BasariPuani <= 100:
+    print("AA")
+if BasariPuani >= 80 and BasariPuani < 90 :
+    print("ab")
+if BasariPuani >= 70 and BasariPuani < 80:
+    print("bb") 
+if BasariPuani >= 60 and BasariPuani < 70:
+    print("cb") 
+if BasariPuani >= 50 and BasariPuani < 60:
+    print("cc") 
+if BasariPuani >= 40 and BasariPuani < 50:
+    print("dd")   
+if BasariPuani >= 1 and BasariPuani < 40:
+    print("ff")
