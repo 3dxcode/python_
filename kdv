@@ -1,7 +1,0 @@
-alis = float(input("Ürünün alış fiyatını giriniz: "))
-kdv = 0.18
-kar = 0.2
-
-satis = alis + alis*kdv*kar
-
-print(satis)
