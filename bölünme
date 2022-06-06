@@ -1,6 +1,0 @@
-sayi = int(input("Sayıyı girin: ")) 
-
-if sayi % 3 == 0 and sayi % 5 ==0:
-    print("bölünüyor")
-else:
-    print("bölünmüyor")
