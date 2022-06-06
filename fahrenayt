@@ -1,3 +1,0 @@
-fah = float(input("Kaç fahrenayt: "))
-canti = (fah-32)*5/9
-print(canti)
