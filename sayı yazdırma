@@ -1,5 +1,0 @@
-a = int(input("1.Sayıyı girin: "))
-b = int(input("2.Sayıyı girin: "))
-
-for i in range(a+1,b):
-    print(i)
