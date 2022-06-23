@@ -1,0 +1,67 @@
+"""
+    ALAN HESAPLAMA
+"""
+
+
+
+def kare(a):
+    print("Karenin alanı = {}".format(a*a))
+
+def dikdortgen(b, c):
+    print("Dikdörtgenin alanı = {}".format(b *c))
+
+
+def yamuk(d, e, f):
+    print("Yamuğun alanı = {}".format(((d + e)*f)/2))
+
+
+def paralelkenar(g ,h):
+    print("Paralel kenarın alanı = {}".format(g*h))
+
+
+def eskenardortgen(ı, j):
+    print("Eşkenar dörtgenin alanı = {}".format((ı*j)/2))
+
+
+
+
+
+if __name__ == '__main__':
+    print("""
+    1 - Kare
+    2 - Dikdörtgen
+    3 - Yamuk
+    4 - Paralelkenar
+    5 - Eşkenar Dörtgen
+    """)
+
+    secim = int(input("Alanını hesaplamak istediğiniz şekil: "))
+
+    if secim == 1:
+        a = int(input("Karenin bir kenarı: "))
+        kare(a)
+
+    elif secim == 2:
+        b = int(input("Dikdörtgenin kısa kenarı: "))
+        c = int(input("Dikdörtgenin uzun kenarı: "))
+        dikdortgen(b, c)
+
+    elif secim == 3:
+        d = int(input("Yamuğun alt taban uzunuğu: "))
+        e = int(input("Yamuğun üst taban uzunuğu: "))
+        f = int(input("Yamuğun yüksekliği: "))
+        yamuk(d, e, f)
+
+    elif secim == 4:
+        g = int(input("Paralel kenarın alt taban uzunluğu: "))
+        h = int(input("Paralel kenarın yüksekliği: "))
+        paralelkenar(g, h)
+
+    elif secim == 5:
+        ı = int(input("Eşkenar dörtgenin alt kenar uzunluğu: "))
+        j = int(input("Eşkenar dörtgenin yan kenar uzunluğu: "))
+        eskenardortgen(ı , j)
+
+    else:
+        print("Sadece belirtilen sayılardan birini giriniz.")
+        
